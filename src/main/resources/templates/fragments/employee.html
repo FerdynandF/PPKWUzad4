@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="row" th:fragment="employee (employee)">
+        <div class="col">
+
+            <div class="card" style="margin-bottom: 10px">
+                <h1 class="title" th:text="${employee.fullName}"></h1>
+                <p class="subTitle" th:text="${employee.organizationUnit}"></p>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <p><a class="btn btn-primary" style="width: 300px;"  th:href="${employee.profileHref}">My profile</a></p>
+                <p><a class="btn btn-primary" style="width: 300px;" th:attr="href=${employee.vCardLink}">Generate vCard</a></p>
+<!--                th:attr="href=${employee.vcardLink}"-->
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
