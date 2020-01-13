@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>No Employees</title>
@@ -7,7 +7,9 @@
 <body>
 <div class="section">
     <div class="container">
-        <h1>No employees</h1>
+        <h1>No Employees found for: '<span style="font-size: 22pt;font-weight: normal" th:text="${search}" />'</h1>
+
+
     </div>
 </div>
 </body>

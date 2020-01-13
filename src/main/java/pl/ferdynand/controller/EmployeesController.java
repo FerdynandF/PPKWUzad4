@@ -42,6 +42,7 @@ public class EmployeesController {
 
             Elements employeeElements = employeesDoc.select(".user-info");
             if (employeeElements.isEmpty()){
+                model.addAttribute("search", search);
                 return "empty";
             }
 
