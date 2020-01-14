@@ -5,7 +5,7 @@
  **Dokumentacja API**
  ===================
  
- ## **WEEIA EVENTS**
+ ## **PŁ EMPLOYEES**
 
 API generuje listę użytkowników korzystając z wyszukiwarki pracowników na stronie http://www.p.lodz.pl/pl.
 API umożliwia rownież generowanie wizytówek vCard, które można dodać do kontaktów.
