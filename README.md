@@ -42,7 +42,7 @@ Request:
 Web Response:
 
 <p align="center">
-  <img src="https://i.imgur.com/dLoXwh6.jpg" width="350" title="hover text">
+  <img src="https://i.imgur.com/dLoXwh6.jpg" width="300" title="hover text">
 </p>
 <br>
 
@@ -56,7 +56,7 @@ Request:
 Web Response:
 
 <p align="center">
-  <img src="https://i.imgur.com/iksnGrd.jpg" width="350" title="hover text">
+  <img src="https://i.imgur.com/iksnGrd.jpg" width="300" title="hover text">
 </p>
   
   <br />
@@ -65,7 +65,7 @@ Web Response:
 ##### Po kliknięciu w przycisk "Generate vCard" mamy moliwośc zapisania wizytówki do kontaktów.
  
 <p align="center">
-  <img src="https://i.imgur.com/5EeIQUo.gif" width="350" title="hover text">
+  <img src="https://i.imgur.com/5EeIQUo.gif" width="300" title="hover text">
 </p>
   
 
