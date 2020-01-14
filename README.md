@@ -42,10 +42,11 @@ Request:
 Web Response:
 
 <p align="center">
-  <img src="https://i.imgur.com/yiUw5tf.jpg" width="350" title="hover text">
+  <img src="https://i.imgur.com/dLoXwh6.jpg" width="350" title="hover text">
 </p>
-<br />
-**Nie znaleziono pracowników**
+<br>
+
+ **Nie znaleziono pracowników**
  <br>
 
 Request: 
