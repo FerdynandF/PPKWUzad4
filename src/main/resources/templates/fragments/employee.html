@@ -7,8 +7,8 @@
     <div class="row" th:fragment="employee (employee)">
         <div class="col">
 
-            <div class="card" style="margin-bottom: 10px">
-                <h1 class="title" th:text="${employee.fullName}"></h1>
+            <div class="card" style="margin-bottom: 10px; background-color: floralwhite; border-radius: 15px 15px 0px 0px;">
+                <h1 class="title" style="padding-top: 10px;" th:text="${employee.fullName}"></h1>
                 <p class="subTitle" th:text="${employee.organizationUnit}"></p>
                 <br>
                 <p><a class="btn btn-primary" style="width: 300px;"  th:href="${employee.profileHref}"><i class="fa fa-user" aria-hidden="true"></i>  My profile</a></p>

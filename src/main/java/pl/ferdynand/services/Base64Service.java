@@ -1,4 +1,4 @@
-package pl.ferdynand.controller;
+package pl.ferdynand.services;
 
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,6 @@ package pl.ferdynand.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.ferdynand.controller.Base64Service;
 
 import java.util.logging.Logger;
 

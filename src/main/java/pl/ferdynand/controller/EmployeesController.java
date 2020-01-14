@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import pl.ferdynand.services.Base64Service;
 import pl.ferdynand.ui.model.Employee;
 
 import java.io.IOException;
@@ -22,7 +23,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @Controller
-@RequestMapping("users")
+@RequestMapping("api/weeia/vcard/users")
 public class EmployeesController {
     @Value("${vcard.baseUrl}")
     private String baseUrl;
